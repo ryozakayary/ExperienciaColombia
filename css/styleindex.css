@@ -1,0 +1,44 @@
+:root{
+    --dark:#ffffff;
+    --dark-x: #bcbcbc;
+    --light: #000000;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark{
+    background-color: var(--dark) !important; 
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img-1{
+    background-image: url('../images/cano-cristales.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url('../images/parque-tayrona.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-3{
+    background-image: url('../images/parque-cocuy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+button{
+    margin-right: 2%;
+    border-color: #000000;
+}
+.fa-brands{
+    margin-right: 2%;
+}
